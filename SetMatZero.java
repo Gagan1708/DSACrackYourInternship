@@ -15,7 +15,7 @@ public class SetMatZero {
         int out[][] = new int[m][n];
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
-                out[i][j] = 1;
+                out[i][j] = 1; //some value inserted into array so that it should not be zero.
             }
         }
         for(int i=0;i<m;i++){
